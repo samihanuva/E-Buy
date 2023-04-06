@@ -31,7 +31,7 @@ class _LoginScreenState extends State<LoginScreen> {
         Navigator.push(context, CupertinoPageRoute(builder: (_)=>UserForm()));
       }
       else{
-        Fluttertoast.showToast(msg: "Something is wrong");
+        Fluttertoast.showToast(msg: "Something is wrong",textColor: Colors.black,backgroundColor: Colors.red);
       }
 
     } on FirebaseAuthException catch (e) {
@@ -55,7 +55,7 @@ class _LoginScreenState extends State<LoginScreen> {
         child: Column(
           children: [
             SizedBox(
-              height: 150.h,
+              height: 164.h,
               width: ScreenUtil().screenWidth,
               child: Padding(
                 padding: EdgeInsets.only(left: 20.w),
