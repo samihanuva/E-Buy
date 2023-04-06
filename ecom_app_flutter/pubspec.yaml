@@ -35,6 +35,8 @@ dependencies:
   flutter_screenutil: ^5.0.1+2
   firebase_core_platform_interface: ^4.5.3
   fluttertoast: ^8.2.1
+  carousel_slider: ^4.2.1
+  dots_indicator: ^2.1.0
 
 
 
