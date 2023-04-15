@@ -1,8 +1,7 @@
 # ecom_app_flutter
 
-An e-commerce app made with flutter . I used firebase for backend.
-The features of this app are as follows:
-1.Landing page
+An e-commerce app made with flutter. I used firebase for backend.The features of this app are as follows:
+1. Landing page
 2.Registration 
 3.Log In/ Log Out
 4. User data form that stores user data in firebase
